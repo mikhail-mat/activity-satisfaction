@@ -41,7 +41,7 @@ done; modelling is the next focus.*
 
 I learned a lot about sklearn pipelines from this project: how to use
 ColumnTransformer to handle different feature types separately, how to
-write my own `FunctionTransformer`s for things like parsing duration strings
+write my own FunctionTransformers for things like parsing duration strings
 or computing the cost-per-minute ratio, and how to chain pipelines together
 for steps like parsing and then scaling. I also realised that good
 preprocessing can't make up for not having enough data - 50 examples is
